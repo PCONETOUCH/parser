@@ -1,0 +1,5 @@
+ui_local/.local/*
+!ui_local/.local/.gitkeep
+ui_local/.venv/
+ui_local/**/__pycache__/
+ui_local/**/*.pyc

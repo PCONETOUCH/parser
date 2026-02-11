@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-head"><h2>Проекты</h2></div>
+<div class="card table-wrap"><table id="projectsTbl" class="tbl"><thead><tr><th>Project</th><th>Segment</th><th>Median</th></tr></thead><tbody></tbody></table></div>
+<script>window.UI.loadProjects("{{ run_id }}")</script>
+{% endblock %}

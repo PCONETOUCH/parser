@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-head"><h2>Проект: {{ project_key }}</h2><a class="btn" href="/projects">Back</a></div>
+<div class="card"><pre id="projectData"></pre></div>
+<script>window.UI.loadProjectDetail("{{ run_id }}","{{ project_key }}")</script>
+{% endblock %}

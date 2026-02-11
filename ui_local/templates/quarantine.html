@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-head"><h2>Quarantine {{ run_id }}</h2></div>
+<div class="card">
+  <form id="acceptForm" class="row">
+    <input type="hidden" name="run_id" value="{{ run_id }}" />
+    <input name="snapshot_name" list="shots" placeholder="snapshot" required />
+    <datalist id="shots">{% for f in files %}<option value="{{ f }}">{% endfor %}</datalist>
+    <input name="operator" placeholder="operator" value="ui_local" />
+    <input name="reason" placeholder="reason" required />
+    <button type="submit" class="btn">Manual accept</button>
+  </form>
+  <pre id="acceptOut"></pre>
+</div>
+<script>window.UI.bindManualAccept()</script>
+{% endblock %}

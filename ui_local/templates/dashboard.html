@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-head"><h2>Сегодня</h2><a class="btn" href="/api/export/parity.xlsx?run_id={{ run_id }}">Export XLSX</a></div>
+<div id="kpi" class="kpi-grid"></div>
+<div class="card"><div id="salesChart" style="height:320px"></div></div>
+<div class="card"><h3>Insights</h3><div id="insights"></div></div>
+<script>window.UI.loadDashboard("{{ run_id }}")</script>
+{% endblock %}

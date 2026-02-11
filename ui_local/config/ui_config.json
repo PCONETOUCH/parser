@@ -1,0 +1,5 @@
+{
+  "launcher_data_root": "../talan_suite_v28/launcher/data",
+  "ignore_statuses": ["sold", "soon", "reserved", "бронь", "продано", "soldout"],
+  "synonyms_override": {}
+}

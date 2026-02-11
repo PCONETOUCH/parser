@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page-head"><h2>Операции</h2></div>
+<div class="card table-wrap">
+<table class="tbl"><thead><tr><th>RUN_ID</th><th>Published</th><th>Quarantine</th><th>Actions</th></tr></thead><tbody>
+{% for r in index.runs %}
+<tr><td>{{ r.run_id }}</td><td>{{ r.published_count }}</td><td>{{ r.quarantine_count }}</td><td><a href="/ops/runs/{{ r.run_id }}">Run</a> · <a href="/ops/quarantine/{{ r.run_id }}">Quarantine</a> · <a href="/ops/logs/{{ r.run_id }}">Logs</a></td></tr>
+{% endfor %}
+</tbody></table></div>
+{% endblock %}
