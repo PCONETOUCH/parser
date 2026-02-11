@@ -1,0 +1,94 @@
+{
+  "run_id": "20260211_173139",
+  "created_at": "2026-02-11T17:47:42+10:00",
+  "parsers": {
+    "talan": {
+      "developer": "Talan",
+      "exit_code": 0,
+      "status": "OK",
+      "reason_code": null,
+      "copied_to": "launcher/data/published_snapshots/20260211_173139/talan__khabarovsk__20260211_173139.csv",
+      "result_json": null,
+      "reason_json": null,
+      "suspect_flags": [],
+      "metrics": {
+        "rows": 4428,
+        "price_null_pct": 0.0,
+        "price_null_pct_all": 0.0,
+        "price_null_pct_effective": null,
+        "price_effective_scope_rows": null,
+        "area_null_pct": 100.0,
+        "rooms_null_pct": 3.049,
+        "rooms_dist": {
+          "1": 2043,
+          "3": 566,
+          "2": 1665,
+          "6": 1,
+          "4": 18
+        }
+      },
+      "message_for_human": "legacy parser (no result.json)",
+      "proc_stdout": "launcher/logs/20260211_173139/parsers/talan.stdout.log",
+      "proc_stderr": "launcher/logs/20260211_173139/parsers/talan.stderr.log",
+      "proc_meta": "launcher/logs/20260211_173139/parsers/talan.meta.json",
+      "support_bundle": null
+    },
+    "shantary": {
+      "developer": "Shantary",
+      "exit_code": 0,
+      "status": "OK",
+      "reason_code": null,
+      "copied_to": "launcher/data/published_snapshots/20260211_173139/shantary__хабаровск__20260211_173842.csv",
+      "result_json": "parser/shantary/output_shantary/result.json",
+      "reason_json": null,
+      "suspect_flags": [],
+      "metrics": {},
+      "message_for_human": "",
+      "proc_stdout": "launcher/logs/20260211_173139/parsers/shantary.stdout.log",
+      "proc_stderr": "launcher/logs/20260211_173139/parsers/shantary.stderr.log",
+      "proc_meta": "launcher/logs/20260211_173139/parsers/shantary.meta.json",
+      "support_bundle": null
+    },
+    "unikey": {
+      "developer": "Unikey",
+      "exit_code": 0,
+      "status": "OK",
+      "reason_code": null,
+      "copied_to": "launcher/data/published_snapshots/20260211_173139/unikey__khabarovsk__20260211_173139.csv",
+      "result_json": null,
+      "reason_json": null,
+      "suspect_flags": [],
+      "metrics": {
+        "rows": 2870,
+        "price_null_pct": 0.0,
+        "price_null_pct_all": 70.976,
+        "price_null_pct_effective": 0.0,
+        "price_effective_scope_rows": 833,
+        "area_null_pct": 0.0,
+        "rooms_null_pct": 0.0,
+        "rooms_dist": {
+          "2": 716,
+          "3": 351,
+          "1": 475,
+          "4": 93,
+          "5": 5,
+          "0": 1230
+        },
+        "area_q10": 2.4,
+        "area_q50": 32.9,
+        "area_q90": 67.67,
+        "area_mode": 2.0,
+        "area_mode_share": 0.0564
+      },
+      "message_for_human": "legacy parser (no result.json)",
+      "proc_stdout": "launcher/logs/20260211_173139/parsers/unikey.stdout.log",
+      "proc_stderr": "launcher/logs/20260211_173139/parsers/unikey.stderr.log",
+      "proc_meta": "launcher/logs/20260211_173139/parsers/unikey.meta.json",
+      "support_bundle": null
+    }
+  },
+  "published": 3,
+  "quarantine": 0,
+  "launcher_log": "launcher/logs/20260211_173139/launcher.log",
+  "launcher_logs_dir": "launcher/logs/20260211_173139"
+}

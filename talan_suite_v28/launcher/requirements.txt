@@ -1,0 +1,9 @@
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+python-dateutil>=2.8.2
+tqdm>=4.66.0
+colorama>=0.4.6
+playwright>=1.42.0
+lxml>=4.9.4
+beautifulsoup4>=4.12.2

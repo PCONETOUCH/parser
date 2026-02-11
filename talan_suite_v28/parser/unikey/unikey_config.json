@@ -1,0 +1,30 @@
+{
+  "get_request_url": "https://api.macro.sbercrm.com/estate/request/get_request_url/?domain=unikey.space&check=EO0u9KTBTIp8IF5pjGrrTgVd9DoCGYR7k1--T-ETXrsslM1uGT5gfDE3NzA3OTYwMTF8OWFmZTU&type=catalog&autoshow=true&inline=true&issetJQuery=1&uuid=39b4137a-2f63-401c-a251-7f647d73777d&_ym_uid=1770795108844950586&roistat_visit=384648&",
+  "auto_refresh_get_request_url": true,
+  "auto_refresh_method": "probe,browser",
+  "auto_refresh_browser_entry_url": "https://unikey.space/projects/",
+  "auto_refresh_browser_headless": false,
+  "auto_refresh_browser_assist_mode": true,
+  "auto_refresh_browser_assist_max_wait_sec": 1800,
+  "auto_refresh_browser_slowmo_ms": 120,
+  "auto_refresh_browser_wait_sec": 45,
+  "persist_refreshed_get_request_url": true,
+  "unikey_probe_urls": [
+    "https://unikey.space/",
+    "https://unikey.space/catalog/"
+  ],
+  "target_city_contains": "Хабаровск",
+  "category": "flat",
+  "activity": "sell",
+  "houses": null,
+  "out_dir": "output_unikey",
+  "timeout_sec": 35,
+  "retries": 3,
+  "sleep_between_requests_sec": 0.1,
+  "categories": {
+    "flat": "flat",
+    "pantry": "storageroom",
+    "parking": "garage"
+  },
+  "extra_categories_strict": true
+}

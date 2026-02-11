@@ -1,0 +1,24 @@
+[
+  {
+    "lot_id": "A-101",
+    "complex": "Demo ЖК",
+    "house": "Корпус 1",
+    "rooms": 1,
+    "area_m2": 37.2,
+    "floor": 5,
+    "price": 6100000,
+    "status": "available",
+    "url": "https://example.com/demo/lot/A-101"
+  },
+  {
+    "lot_id": "B-1207",
+    "complex": "Demo ЖК",
+    "house": "Корпус 2",
+    "rooms": 2,
+    "area_m2": 58.4,
+    "floor": 12,
+    "price": 8900000,
+    "status": "available",
+    "url": "https://example.com/demo/lot/B-1207"
+  }
+]

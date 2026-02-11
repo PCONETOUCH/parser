@@ -1,0 +1,31 @@
+{
+  "get_request_url": "https://api.macro.sbercrm.com/estate/request/get_request_url/?domain=shantary.ru&check=zrG40_XwtJ-yuiihBrE1o_sXKZGfM6fq2BLQJVtzEAk4Si4UAFF8MTc3MDc5NTUyN3wzYzEwMQ&type=catalog&inline=true&issetJQuery=1&presmode=complex&complexid=4230048&uuid=8395f97d-c2df-4898-9e73-748b62fa6d71&_ym_uid=1770795528680462413&",
+  "auto_refresh_get_request_url": true,
+  "auto_refresh_method": "probe_api,probe_html,browser",
+  "auto_refresh_browser_entry_url": "https://shantary.ru/#/macrocatalog/complexes/list?studio=null&category=flat&activity=sell",
+  "persist_refreshed_get_request_url": true,
+  "target_city_contains": "Хабаровск",
+  "categories": {
+    "flat": "flat",
+    "parking": "garage"
+  },
+  "extra_categories_strict": true,
+  "activity": "sell",
+  "houses": null,
+  "out_dir": "output_shantary",
+  "timeout_sec": 35,
+  "retries": 3,
+  "sleep_between_requests_sec": 0.25,
+  "sleep_backoff_factor": 2,
+  "max_retry_passes": 3,
+  "auto_retry_delay_sec": 9,
+  "manual_help_after_fail": true,
+  "manual_soft_sleep_sec": 1.2,
+  "estates_page_size": 500,
+  "estates_max_pages": 300,
+  "estates_small_result_threshold": 12,
+  "auto_refresh_browser_assist_mode": true,
+  "auto_refresh_browser_assist_max_wait_sec": 1800,
+  "min_flats_retry_threshold": 50,
+  "auto_refresh_browser_wait_sec": 45
+}

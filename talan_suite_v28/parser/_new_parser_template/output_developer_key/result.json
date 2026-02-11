@@ -1,0 +1,11 @@
+{
+  "status": "OK",
+  "retries_used": 0,
+  "suspect_flags": [],
+  "output_snapshot_path": "parser/_new_parser_template/output_developer_key/snapshots_raw/developer_key__khabarovsk__20260210_023649.csv",
+  "message_for_human": "OK",
+  "metrics": {
+    "rows": 2,
+    "price_null_pct": 0.0
+  }
+}

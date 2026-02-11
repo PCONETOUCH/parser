@@ -1,0 +1,30 @@
+{
+  "get_request_url": "",
+  "auto_refresh_get_request_url": true,
+  "auto_refresh_method": "probe,browser",
+  "auto_refresh_browser_entry_url": "https://unikey.space/projects/",
+  "auto_refresh_browser_headless": false,
+  "auto_refresh_browser_assist_mode": true,
+  "auto_refresh_browser_assist_max_wait_sec": 1800,
+  "auto_refresh_browser_slowmo_ms": 120,
+  "auto_refresh_browser_wait_sec": 45,
+  "persist_refreshed_get_request_url": true,
+  "unikey_probe_urls": [
+    "https://unikey.space/",
+    "https://unikey.space/catalog/"
+  ],
+  "target_city_contains": "Хабаровск",
+  "category": "flat",
+  "activity": "sell",
+  "houses": null,
+  "out_dir": "output_unikey",
+  "timeout_sec": 35,
+  "retries": 3,
+  "sleep_between_requests_sec": 0.1,
+  "categories": {
+    "flat": "flat",
+    "pantry": "pantry",
+    "parking": "parking"
+  },
+  "extra_categories_strict": true
+}

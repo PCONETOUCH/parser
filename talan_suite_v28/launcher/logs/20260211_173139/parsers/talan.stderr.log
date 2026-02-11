@@ -1,0 +1,3 @@
+CMD: C:\Games\talan_suite_v28\.venv\Scripts\python.exe C:\Games\talan_suite_v28\parser/talan/talan_parser.py
+
+NOTE: stderr is merged into stdout in show_window mode. See .stdout.log

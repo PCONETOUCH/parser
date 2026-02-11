@@ -1,0 +1,3 @@
+developer_key,captured_at,source,area_m2,complex,floor,house,lot_id,price,rooms,status,url
+developer_key,2026-02-10T02:36:49+00:00,https://example.com,37.2,Demo ЖК,5,Корпус 1,A-101,6100000,1,available,https://example.com/demo/lot/A-101
+developer_key,2026-02-10T02:36:49+00:00,https://example.com,58.4,Demo ЖК,12,Корпус 2,B-1207,8900000,2,available,https://example.com/demo/lot/B-1207

@@ -1,0 +1,10 @@
+RUN_ID: 20260211_173139
+Published: 3
+Quarantine: 0
+Launcher log: launcher/logs/20260211_173139/launcher.log
+
+- Talan (talan): OK | copied_to=C:\Games\talan_suite_v28\launcher\data\published_snapshots\20260211_173139\talan__khabarovsk__20260211_173139.csv
+    note: legacy parser (no result.json)
+- Shantary (shantary): OK | copied_to=C:\Games\talan_suite_v28\launcher\data\published_snapshots\20260211_173139\shantary__хабаровск__20260211_173842.csv
+- Unikey (unikey): OK | copied_to=C:\Games\talan_suite_v28\launcher\data\published_snapshots\20260211_173139\unikey__khabarovsk__20260211_173139.csv
+    note: legacy parser (no result.json)

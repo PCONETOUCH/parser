@@ -1,0 +1,2 @@
+apartment_id,complex_slug,house,entrance,error_type,http_status,message
+0ff69249-99cd-4dfd-b1e3-9f13e022ae1b,voronezhskaja,12,1,http_5xx,503,GET JSON failed after 3 tries: https://talan.ru/api/apartment-info params={'apartmentId': '0ff69249-99cd-4dfd-b1e3-9f13e022ae1b'} status=503 err=503 Server Error: Service Temporarily Unavailable for url: https://talan.ru/api/apartment-info?apartmentId=0ff69249-99cd-4dfd-b1e3-9f13e022ae1b

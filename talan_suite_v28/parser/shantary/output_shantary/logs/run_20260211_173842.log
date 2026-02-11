@@ -1,0 +1,33 @@
+2026-02-11 17:38:42,526 | INFO | Logging to C:\Games\talan_suite_v28\parser\shantary\output_shantary\logs\run_20260211_173842.log
+2026-02-11 17:38:42,527 | INFO | Config loaded: city=Хабаровск, activity=sell, categories={'flat': 'flat', 'parking': 'garage'}
+2026-02-11 17:38:42,527 | INFO | 
+=== Retry pass 1/3 (sleep=0.25s) ===
+2026-02-11 17:38:42,527 | INFO | [PROGRESS 1/5] Step A: fetching signed catalog URL
+2026-02-11 17:38:42,527 | INFO | Auto-refresh(probe_api): trying https://api.macro.sbercrm.com/estate/request/get_request_url/?domain=shantary.ru
+2026-02-11 17:38:43,259 | WARNING | Auto-refresh(probe_api) failed: Catalog URL missing in get_request_url response (keys=['error', 'message'])
+2026-02-11 17:38:47,525 | INFO | Manual token refresh: Chrome window is open.
+2026-02-11 17:38:47,525 | INFO | Please do the following IN THE OPENED BROWSER:
+2026-02-11 17:38:47,525 | INFO |   1) If a form asking for phone/data appears: fill it (can use test data) and submit to unlock the catalog
+2026-02-11 17:38:47,525 | INFO |   2) Open the apartment selection / catalog and then open ANY house chessboard (floors/grid)
+2026-02-11 17:38:47,526 | INFO |   3) Close popups/banners manually if they block clicks — parser will keep waiting
+2026-02-11 17:38:47,526 | INFO | As soon as the site requests /estate/request/get_request_url, the parser will capture it and continue.
+2026-02-11 17:38:47,786 | INFO | Waiting for token... (0s elapsed)
+2026-02-11 17:38:49,800 | INFO | Persisted refreshed get_request_url into C:\Games\talan_suite_v28\parser\shantary\shantary_config.json
+2026-02-11 17:38:49,800 | INFO | Auto-refresh(browser) OK
+2026-02-11 17:38:49,800 | INFO | Catalog URL: https://api.macro.sbercrm.com/estate/catalog/?domain=shantary.ru&check=zrG40_XwtJ-yuiihBrE1o_sXKZGfM6fq2BLQJVtzEAk4Si4UA...
+2026-02-11 17:38:50,052 | INFO | [PROGRESS 2/5] Step B: fetching get_data
+2026-02-11 17:38:50,566 | INFO | 
+[PROGRESS 3/5] Category 'flat' (token=flat)
+2026-02-11 17:38:50,567 | INFO | Targets for flat: 3 houses
+2026-02-11 17:39:04,290 | WARNING | get_estates seems paginated but pagination probes didn't improve results; returning 1 items
+2026-02-11 17:39:04,291 | INFO | House 4225723 (flat): rows=180
+2026-02-11 17:39:18,421 | WARNING | get_estates seems paginated but pagination probes didn't improve results; returning 1 items
+2026-02-11 17:39:18,423 | INFO | House 4269815 (flat): rows=180
+2026-02-11 17:39:31,475 | WARNING | get_estates seems paginated but pagination probes didn't improve results; returning 1 items
+2026-02-11 17:39:31,477 | INFO | House 4269836 (flat): rows=180
+2026-02-11 17:39:31,477 | INFO | 
+[PROGRESS 3/5] Category 'parking' (token=garage)
+2026-02-11 17:39:31,477 | INFO | Targets for parking: 1 houses
+2026-02-11 17:39:54,462 | WARNING | get_estates seems paginated but pagination probes didn't improve results; returning 1 items
+2026-02-11 17:39:54,464 | INFO | House 4225723 (parking): rows=391
+2026-02-11 17:39:54,482 | INFO | Result written to C:\Games\talan_suite_v28\parser\shantary\output_shantary\result.json

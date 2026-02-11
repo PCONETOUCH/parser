@@ -1,0 +1,122 @@
+{
+  "city": "khabarovsk",
+  "city_ru": "Хабаровск",
+  "data_dir": "launcher/data",
+  "published_dir": "launcher/data/published_snapshots",
+  "quarantine_dir": "launcher/data/quarantine",
+  "runs_dir": "launcher/data/runs",
+  "errors_dir": "launcher/data/errors",
+  "prompt_mode": "ask",
+  "quality": {
+    "warn_row_delta_pct": 25,
+    "hard_row_delta_pct": 40,
+    "warn_price_fill_drop_pct": 8,
+    "hard_price_fill_drop_pct": 15,
+    "warn_dup_id_pct": 0.2,
+    "hard_dup_id_pct": 1.0
+  },
+  "parsers": {
+    "talan": {
+      "enabled": true,
+      "developer": "Talan",
+      "runner": {
+        "type": "python",
+        "script": "parser/talan/talan_parser.py",
+        "args": [],
+        "show_window": true
+      },
+      "output": {
+        "snapshot_glob": "parser/talan/snapshots/*.csv",
+        "errors_glob": "parser/talan/errors/*api_errors*.csv",
+        "log_glob": "parser/talan/logs/run_*.log",
+        "id_col": "apartment_id",
+        "price_col": "price",
+        "captured_at_col": "captured_at"
+      },
+      "source": "https://talan.ru",
+      "timeout_sec": 1800,
+      "parallel": true
+    },
+    "unikey": {
+      "enabled": true,
+      "developer": "Unikey",
+      "runner": {
+        "type": "python",
+        "script": "parser/unikey/unikey_parser.py",
+        "args": [
+          "--config",
+          "parser/unikey/unikey_config.json"
+        ],
+        "show_window": true
+      },
+      "output": {
+        "config_path": "parser/unikey/unikey_config.json",
+        "snapshot_glob": "parser/unikey/output_unikey/snapshots/*_unikey_snapshot.csv",
+        "errors_glob": "parser/unikey/output_unikey/errors/*_unikey_errors.csv",
+        "log_glob": "parser/unikey/output_unikey/logs/run_*.log",
+        "id_col": "flat_item_id",
+        "price_col": "price",
+        "captured_at_col": "captured_at",
+        "status_cols": [
+          "lot_status",
+          "flat_status",
+          "status"
+        ],
+        "price_null_ignore_statuses": [
+          "sold",
+          "soon"
+        ]
+      },
+      "source": "https://unikey.space",
+      "timeout_sec": 1800,
+      "parallel": true
+    },
+    "shantary": {
+      "enabled": true,
+      "developer": "Shantary",
+      "runner": {
+        "type": "python",
+        "script": "parser/shantary/shantary_parser.py",
+        "args": [
+          "--config",
+          "parser/shantary/shantary_config.json"
+        ],
+        "show_window": true
+      },
+      "output": {
+        "config_path": "parser/shantary/shantary_config.json",
+        "snapshot_glob": "parser/shantary/output_shantary/snapshots_raw/*.csv",
+        "errors_glob": "parser/shantary/output_shantary/errors/*.csv",
+        "log_glob": "parser/shantary/output_shantary/logs/run_*.log",
+        "id_col": "flat_item_id",
+        "price_col": "price",
+        "captured_at_col": "captured_at",
+        "status_cols": [
+          "lot_status",
+          "flat_status",
+          "status"
+        ],
+        "price_null_ignore_statuses": [
+          "sold",
+          "soon"
+        ]
+      },
+      "source": "https://shantary.ru",
+      "timeout_sec": 1800,
+      "parallel": true
+    }
+  },
+  "max_parallel": 2,
+  "support_bundle": {
+    "enabled": true,
+    "include_ok": false,
+    "snapshot_head_lines": 60,
+    "errors_head_lines": 250,
+    "max_recent_files": 50
+  },
+  "console": {
+    "enabled": true,
+    "show_window": true,
+    "note": "Windows: open each parser in a separate console window and tee output into launcher logs."
+  }
+}

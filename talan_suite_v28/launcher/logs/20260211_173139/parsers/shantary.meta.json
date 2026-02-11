@@ -1,0 +1,15 @@
+{
+  "cmd": [
+    "C:\\Games\\talan_suite_v28\\.venv\\Scripts\\python.exe",
+    "C:\\Games\\talan_suite_v28\\parser/shantary/shantary_parser.py",
+    "--config",
+    "parser/shantary/shantary_config.json"
+  ],
+  "cwd": "C:\\Games\\talan_suite_v28",
+  "timeout_sec": 1800,
+  "show_window": true,
+  "started_at": "2026-02-11T17:38:41+10:00",
+  "exit_code": 0,
+  "finished_at": "2026-02-11T17:39:54+10:00",
+  "duration_sec": 72.659
+}

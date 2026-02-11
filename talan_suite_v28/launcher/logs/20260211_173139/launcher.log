@@ -1,0 +1,12 @@
+2026-02-11 17:31:39 | START launcher run_id=20260211_173139 mode=all city=khabarovsk
+2026-02-11 17:31:39 | Config: launcher/launcher_config.json
+2026-02-11 17:31:39 | Reports: launcher/data/reports/20260211_173139
+2026-02-11 17:31:39 | Logs: launcher/logs/20260211_173139
+2026-02-11 17:31:39 | RUN (async) talan
+2026-02-11 17:31:39 | RUN (async) unikey
+2026-02-11 17:31:39 | RUN talan | cmd=C:\Games\talan_suite_v28\.venv\Scripts\python.exe C:\Games\talan_suite_v28\parser/talan/talan_parser.py | timeout=1800s
+2026-02-11 17:31:39 | RUN unikey | cmd=C:\Games\talan_suite_v28\.venv\Scripts\python.exe C:\Games\talan_suite_v28\parser/unikey/unikey_parser.py --config parser/unikey/unikey_config.json | timeout=1800s
+2026-02-11 17:38:41 | RUN (async) shantary
+2026-02-11 17:38:41 | RUN shantary | cmd=C:\Games\talan_suite_v28\.venv\Scripts\python.exe C:\Games\talan_suite_v28\parser/shantary/shantary_parser.py --config parser/shantary/shantary_config.json | timeout=1800s
+2026-02-11 17:47:42 | DONE run_id=20260211_173139 published=3 quarantine=0
+2026-02-11 17:47:42 | Report: launcher/data/reports/20260211_173139

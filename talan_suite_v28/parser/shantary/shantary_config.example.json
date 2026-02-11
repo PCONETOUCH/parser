@@ -1,0 +1,27 @@
+{
+  "get_request_url": "",
+  "auto_refresh_get_request_url": true,
+  "auto_refresh_method": "probe_api,probe_html,browser",
+  "auto_refresh_browser_entry_url": "https://shantary.ru/#/macrocatalog/complexes/4230048?studio=null&category=flat&activity=sell&presMode=complex",
+  "persist_refreshed_get_request_url": true,
+  "target_city_contains": "Хабаровск",
+  "categories": {
+    "flat": "flat",
+    "parking": "garage"
+  },
+  "extra_categories_strict": true,
+  "activity": "sell",
+  "houses": null,
+  "out_dir": "output_shantary",
+  "timeout_sec": 35,
+  "retries": 3,
+  "sleep_between_requests_sec": 0.25,
+  "sleep_backoff_factor": 2,
+  "max_retry_passes": 3,
+  "auto_retry_delay_sec": 9,
+  "manual_help_after_fail": true,
+  "manual_soft_sleep_sec": 1.2,
+  "estates_page_size": 500,
+  "estates_max_pages": 300,
+  "estates_small_result_threshold": 12
+}

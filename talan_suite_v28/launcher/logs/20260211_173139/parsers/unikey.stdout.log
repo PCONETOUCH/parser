@@ -1,0 +1,54 @@
+CMD: C:\Games\talan_suite_v28\.venv\Scripts\python.exe C:\Games\talan_suite_v28\parser/unikey/unikey_parser.py --config parser/unikey/unikey_config.json
+NOTE: output is captured via PowerShell Start-Transcript to keep stdout a real TTY (tqdm works).
+
+**********************
+?????? ?????? ???????? Windows PowerShell
+????? ??????: 20260211173140
+??? ????????????: DESKTOP-MBG9799\Admin
+?????? ?? ????? ????????????: DESKTOP-MBG9799\Admin
+??? ????????????: 
+?????????: DESKTOP-MBG9799 (Microsoft Windows NT 10.0.26200.0)
+??????? ??????????: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command $ErrorActionPreference='Continue'; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; $env:PYTHONIOENCODING='utf-8'; $env:PYTHONUNBUFFERED='1'; $out='C:\Games\talan_suite_v28\launcher\logs\20260211_173139\parsers\unikey.stdout.log'; try { Start-Transcript -Path $out -Append -Force | Out-Null } catch {} ; & 'C:\Games\talan_suite_v28\.venv\Scripts\python.exe' 'C:\Games\talan_suite_v28\parser/unikey/unikey_parser.py' '--config' 'parser/unikey/unikey_config.json'; $rc=$LASTEXITCODE; try { Stop-Transcript | Out-Null } catch {} ; exit $rc
+?? ????????: 2996
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2026-02-11 17:46:54,652 | INFO |  - [pantry/storageroom] ????? ??????? GREEN | ?? ??????? GREEN ??? 2 | house_id=4562173
+2026-02-11 17:46:54,652 | INFO |  - [pantry/storageroom] ????? ??????? GREEN | ?? ??????? GREEN ??? 3 | house_id=4562547
+2026-02-11 17:46:54,652 | INFO |  - [pantry/storageroom] ????? ??????? GREEN | ?? ??????? GREEN ??? 4 | house_id=4562774
+2026-02-11 17:46:54,652 | INFO |  - [parking/garage] ?? Stories | ??????? | house_id=6802460
+2026-02-11 17:46:54,652 | INFO |  - [parking/garage] ?? ?????? ???????? | ??????? | house_id=6761426
+2026-02-11 17:46:54,652 | INFO | [PROGRESS 4/5] ???????? ????: ????????????? (18 ?????)
+2026-02-11 17:46:56,611 | INFO | House 4572844 [flat/flat]: rows=152
+2026-02-11 17:46:59,287 | INFO | House 4573050 [flat/flat]: rows=173
+2026-02-11 17:47:02,050 | INFO | House 4571674 [flat/flat]: rows=164
+2026-02-11 17:47:04,805 | INFO | House 4571666 [flat/flat]: rows=153
+2026-02-11 17:47:07,331 | INFO | House 4571506 [flat/flat]: rows=159
+2026-02-11 17:47:10,056 | INFO | House 4571679 [flat/flat]: rows=148
+2026-02-11 17:47:14,730 | INFO | House 4563040 [flat/flat]: rows=334
+2026-02-11 17:47:17,277 | INFO | House 4701508 [flat/flat]: rows=178
+2026-02-11 17:47:19,465 | INFO | House 4701782 [flat/flat]: rows=109
+2026-02-11 17:47:21,685 | INFO | House 4701915 [flat/flat]: rows=70
+2026-02-11 17:47:22,915 | INFO | House 4564264 [pantry/storageroom]: rows=15
+2026-02-11 17:47:24,954 | INFO | House 4571170 [pantry/storageroom]: rows=43
+2026-02-11 17:47:27,308 | INFO | House 4560163 [pantry/storageroom]: rows=72
+2026-02-11 17:47:29,055 | INFO | House 4562173 [pantry/storageroom]: rows=72
+2026-02-11 17:47:30,526 | INFO | House 4562547 [pantry/storageroom]: rows=72
+2026-02-11 17:47:32,792 | INFO | House 4562774 [pantry/storageroom]: rows=108
+2026-02-11 17:47:38,460 | INFO | House 6802460 [parking/garage]: rows=544
+2026-02-11 17:47:42,136 | INFO | House 6761426 [parking/garage]: rows=304
+Unikey: ????????????? (?????????): 100%|??????????????????????????| 18/18 [00:47<00:00,  2.64s/it, lots=2870, errors=0]
+2026-02-11 17:47:42,137 | INFO | [PROGRESS 5/5] ?????????? snapshot ? ???????? ?????????
+
+Done. rows=2870 house_pairs=18 errors=0 lot_types={'flat': 1640, 'pantry': 382, 'parking': 848}
+Snapshot: C:\Games\talan_suite_v28\parser/unikey\output_unikey\snapshots\20260211_173140_unikey_snapshot.csv
+**********************
+????? ?????? ????????? Windows PowerShell
+????? ?????????: 20260211174742
+**********************

@@ -1,0 +1,54 @@
+CMD: C:\Games\talan_suite_v28\.venv\Scripts\python.exe C:\Games\talan_suite_v28\parser/talan/talan_parser.py
+NOTE: output is captured via PowerShell Start-Transcript to keep stdout a real TTY (tqdm works).
+
+**********************
+?????? ?????? ???????? Windows PowerShell
+????? ??????: 20260211173140
+??? ????????????: DESKTOP-MBG9799\Admin
+?????? ?? ????? ????????????: DESKTOP-MBG9799\Admin
+??? ????????????: 
+?????????: DESKTOP-MBG9799 (Microsoft Windows NT 10.0.26200.0)
+??????? ??????????: powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command $ErrorActionPreference='Continue'; [Console]::OutputEncoding=[System.Text.Encoding]::UTF8; $env:PYTHONIOENCODING='utf-8'; $env:PYTHONUNBUFFERED='1'; $out='C:\Games\talan_suite_v28\launcher\logs\20260211_173139\parsers\talan.stdout.log'; try { Start-Transcript -Path $out -Append -Force | Out-Null } catch {} ; & 'C:\Games\talan_suite_v28\.venv\Scripts\python.exe' 'C:\Games\talan_suite_v28\parser/talan/talan_parser.py'; $rc=$LASTEXITCODE; try { Stop-Transcript | Out-Null } catch {} ; exit $rc
+?? ????????: 12576
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+: https://talan.ru/api/apartment-info?apartmentId=455d2e8a-6187-4336-9f8a-086ad4e50634
+2026-02-11 17:38:29,098 | WARNING | GET JSON fail (1/3) https://talan.ru/api/apartment-info params={'apartmentId': '96f2
+6247-e742-4f1a-8f31-ca78aaa42fe4'} status=503 type=http_5xx err=503 Server Error: Service Temporarily Unavailable for ur
+l: https://talan.ru/api/apartment-info?apartmentId=96f26247-e742-4f1a-8f31-ca78aaa42fe4
+Apartment-info: 100%|????????????????????????????????????????????????????| 4413/4428 [03:36<00:00, 24.35it/s, errors=1]2
+026-02-11 17:38:29,812 | WARNING | GET JSON fail (1/3) https://talan.ru/api/apartment-info params={'apartmentId': 'bb99f
+018-fa89-44b9-910b-39c8722d64aa'} status=503 type=http_5xx err=503 Server Error: Service Temporarily Unavailable for url
+: https://talan.ru/api/apartment-info?apartmentId=bb99f018-fa89-44b9-910b-39c8722d64aa
+Apartment-info: 100%|????????????????????????????????????????????????????| 4428/4428 [03:37<00:00, 20.34it/s, errors=1]
+2026-02-11 17:38:30,987 | WARNING | API pass1 failed: 1. Saved: C:\Games\talan_suite_v28\parser/talan\errors\20260211_17
+3140_api_errors_pass1.csv
+2026-02-11 17:38:30,987 | WARNING | API pass1 error stats: {'http_5xx': 1}
+2026-02-11 17:38:30,987 | WARNING | Auto retry-pass #1 scheduled in 9.7s (remaining fails=1)
+2026-02-11 17:38:40,711 | WARNING | Retry-pass #1 error stats: {'http_5xx': 1}
+2026-02-11 17:38:40,711 | INFO | Retry-pass #1 params: workers=4 in_flight=60 submit_sleep=0.25s
+Retry-failed #1: 100%|?????????????????????????????????????????????????????????| 1/1 [00:00<00:00,  1.19it/s, errors=0]
+2026-02-11 17:38:41,552 | WARNING | Retry-pass #1 done. Remaining fails=0. Saved: C:\Games\talan_suite_v28\parser/talan\
+errors\20260211_173140_api_errors_after_retry1.csv
+2026-02-11 17:38:41,552 | INFO | All API errors resolved after retry-pass #1.
+2026-02-11 17:38:41,621 | INFO | Snapshot written: C:\Games\talan_suite_v28\parser/talan\snapshots\20260211_173140.csv (
+rows=4428)
+2026-02-11 17:38:41,621 | INFO | No previous latest.csv found; changes not computed.
+2026-02-11 17:38:41,665 | INFO | Latest updated: C:\Games\talan_suite_v28\parser/talan\latest.csv
+
+=== DONE ===
+Snapshot : C:\Games\talan_suite_v28\parser/talan\snapshots\20260211_173140.csv
+Latest   : C:\Games\talan_suite_v28\parser/talan\latest.csv
+Changes  : (no previous latest.csv)
+Log file : C:\Games\talan_suite_v28\parser/talan\logs\run_20260211_173140.log
+**********************
+????? ?????? ????????? Windows PowerShell
+????? ?????????: 20260211173841
+**********************

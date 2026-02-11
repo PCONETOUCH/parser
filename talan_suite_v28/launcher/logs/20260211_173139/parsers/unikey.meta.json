@@ -1,0 +1,15 @@
+{
+  "cmd": [
+    "C:\\Games\\talan_suite_v28\\.venv\\Scripts\\python.exe",
+    "C:\\Games\\talan_suite_v28\\parser/unikey/unikey_parser.py",
+    "--config",
+    "parser/unikey/unikey_config.json"
+  ],
+  "cwd": "C:\\Games\\talan_suite_v28",
+  "timeout_sec": 1800,
+  "show_window": true,
+  "started_at": "2026-02-11T17:31:39+10:00",
+  "exit_code": 0,
+  "finished_at": "2026-02-11T17:47:42+10:00",
+  "duration_sec": 962.587
+}

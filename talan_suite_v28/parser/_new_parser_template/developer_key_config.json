@@ -1,0 +1,56 @@
+{
+  "developer_key": "developer_key",
+  "city": "khabarovsk",
+  "city_ru": "Хабаровск",
+  "source": "https://example.com",
+  "city_filter": {
+    "mode": "contains",
+    "value": "Хабаровск"
+  },
+  "targets": {
+    "mode": "ALL",
+    "items": []
+  },
+  "softness": {
+    "workers": 6,
+    "in_flight": 60,
+    "submit_sleep_sec": 0.15,
+    "request_timeout_sec": 25,
+    "jitter_sec": 0.25
+  },
+  "max_retries": 3,
+  "retry_base_sleep_sec": 9,
+  "validation": {
+    "warn_row_delta_pct": 25,
+    "quarantine_row_delta_pct": 45,
+    "warn_price_null_pct": 15,
+    "quarantine_price_null_pct": 30,
+    "warn_area_null_pct": 20,
+    "quarantine_area_null_pct": 40,
+    "warn_rooms_null_pct": 20,
+    "quarantine_rooms_null_pct": 40,
+    "warn_area_mode_share": 0.35,
+    "warn_area_q50_factor": 2.0,
+    "warn_house_drop_pct": 20,
+    "quarantine_house_drop_pct": 50,
+    "warn_complex_drop_pct": 20,
+    "quarantine_complex_drop_pct": 50,
+    "warn_available_drop_pp": 15,
+    "quarantine_available_drop_pp": 30,
+    "available_values": [
+      "available"
+    ],
+    "warn_status_null_pct": 20,
+    "quarantine_status_null_pct": 40
+  },
+  "output": {
+    "base_dir": "parser/_new_parser_template/output_developer_key",
+    "snapshots_raw_dir": "snapshots_raw",
+    "logs_dir": "logs",
+    "errors_dir": "errors",
+    "quarantine_dir": "quarantine"
+  },
+  "demo_mode": true,
+  "demo_sample_file": "sample_lots.json",
+  "print_logs_to_console": true
+}

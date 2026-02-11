@@ -1,0 +1,5 @@
+2026-02-10 02:36:49 | INFO  | START developer_key | city=khabarovsk | config=/mnt/data/talan_suite_v28_extracted/talan_suite_v28/parser/_new_parser_template/developer_key_config.json
+2026-02-10 02:36:49 | INFO  | Attempt 0/3: workers=6 in_flight=60 submit_sleep=0.150s jitter=0.250s
+2026-02-10 02:36:49 | INFO  | Status OK — stop retries
+2026-02-10 02:36:49 | INFO  | Wrote result: /mnt/data/talan_suite_v28_extracted/talan_suite_v28/parser/_new_parser_template/output_developer_key/result.json
+2026-02-10 02:36:49 | INFO  | DONE status=OK retries_used=0

@@ -1,0 +1,104 @@
+2026-02-11 17:31:40,632 | INFO | Logging to C:\Games\talan_suite_v28\parser/unikey\output_unikey\logs\run_20260211_173140.log
+2026-02-11 17:31:40,670 | INFO | Config: city contains=Хабаровск, category=flat, houses=ALL
+2026-02-11 17:31:40,670 | INFO | [PROGRESS 1/5] Получаем подписанную ссылку на каталог (token/time)
+2026-02-11 17:31:40,671 | WARNING | get_request_url failed: get_request_url in config looks like a placeholder
+2026-02-11 17:31:40,671 | INFO | Trying to auto-refresh get_request_url (methods=probe,browser)...
+2026-02-11 17:31:49,062 | INFO | Manual token refresh: Chrome window is open.
+2026-02-11 17:31:49,062 | INFO | Please do the following IN THE OPENED BROWSER (you can click/scroll/close banners):
+2026-02-11 17:31:49,062 | INFO |   1) On https://unikey.space/projects/ choose city: Хабаровск
+2026-02-11 17:31:49,062 | INFO |   2) Open Catalog -> Complexes
+2026-02-11 17:31:49,062 | INFO |   3) Open any house and its chessboard (floor/bigGrid)
+2026-02-11 17:31:49,062 | INFO | As soon as the site requests /estate/request/get_request_url, the parser will capture it and continue.
+2026-02-11 17:31:49,063 | INFO | Tip: if a promo/chat blocks UI, just close it manually — parser will keep waiting.
+2026-02-11 17:31:49,323 | INFO | Waiting for token... (0s elapsed)
+2026-02-11 17:32:09,483 | INFO | Waiting for token... (20s elapsed)
+2026-02-11 17:32:29,716 | INFO | Waiting for token... (40s elapsed)
+2026-02-11 17:32:49,959 | INFO | Waiting for token... (60s elapsed)
+2026-02-11 17:33:09,970 | INFO | Waiting for token... (80s elapsed)
+2026-02-11 17:33:30,209 | INFO | Waiting for token... (101s elapsed)
+2026-02-11 17:33:50,231 | INFO | Waiting for token... (121s elapsed)
+2026-02-11 17:34:10,461 | INFO | Waiting for token... (141s elapsed)
+2026-02-11 17:34:30,477 | INFO | Waiting for token... (161s elapsed)
+2026-02-11 17:34:50,509 | INFO | Waiting for token... (181s elapsed)
+2026-02-11 17:35:10,723 | INFO | Waiting for token... (201s elapsed)
+2026-02-11 17:35:30,913 | INFO | Waiting for token... (221s elapsed)
+2026-02-11 17:35:51,167 | INFO | Waiting for token... (242s elapsed)
+2026-02-11 17:36:11,374 | INFO | Waiting for token... (262s elapsed)
+2026-02-11 17:36:31,380 | INFO | Waiting for token... (282s elapsed)
+2026-02-11 17:36:51,616 | INFO | Waiting for token... (302s elapsed)
+2026-02-11 17:37:11,828 | INFO | Waiting for token... (322s elapsed)
+2026-02-11 17:37:31,840 | INFO | Waiting for token... (342s elapsed)
+2026-02-11 17:37:52,088 | INFO | Waiting for token... (363s elapsed)
+2026-02-11 17:38:12,099 | INFO | Waiting for token... (383s elapsed)
+2026-02-11 17:38:32,308 | INFO | Waiting for token... (403s elapsed)
+2026-02-11 17:38:52,522 | INFO | Waiting for token... (423s elapsed)
+2026-02-11 17:39:12,706 | INFO | Waiting for token... (443s elapsed)
+2026-02-11 17:39:32,726 | INFO | Waiting for token... (463s elapsed)
+2026-02-11 17:39:52,887 | INFO | Waiting for token... (483s elapsed)
+2026-02-11 17:40:12,942 | INFO | Waiting for token... (503s elapsed)
+2026-02-11 17:40:33,122 | INFO | Waiting for token... (524s elapsed)
+2026-02-11 17:40:53,282 | INFO | Waiting for token... (544s elapsed)
+2026-02-11 17:41:13,436 | INFO | Waiting for token... (564s elapsed)
+2026-02-11 17:41:33,473 | INFO | Waiting for token... (584s elapsed)
+2026-02-11 17:41:53,576 | INFO | Waiting for token... (604s elapsed)
+2026-02-11 17:42:13,806 | INFO | Waiting for token... (624s elapsed)
+2026-02-11 17:42:33,949 | INFO | Waiting for token... (644s elapsed)
+2026-02-11 17:42:54,087 | INFO | Waiting for token... (665s elapsed)
+2026-02-11 17:43:14,263 | INFO | Waiting for token... (685s elapsed)
+2026-02-11 17:43:34,284 | INFO | Waiting for token... (705s elapsed)
+2026-02-11 17:43:54,546 | INFO | Waiting for token... (725s elapsed)
+2026-02-11 17:44:14,571 | INFO | Waiting for token... (745s elapsed)
+2026-02-11 17:44:34,834 | INFO | Waiting for token... (765s elapsed)
+2026-02-11 17:44:55,087 | INFO | Waiting for token... (786s elapsed)
+2026-02-11 17:45:15,114 | INFO | Waiting for token... (806s elapsed)
+2026-02-11 17:45:35,118 | INFO | Waiting for token... (826s elapsed)
+2026-02-11 17:45:55,329 | INFO | Waiting for token... (846s elapsed)
+2026-02-11 17:46:15,351 | INFO | Waiting for token... (866s elapsed)
+2026-02-11 17:46:35,576 | INFO | Waiting for token... (886s elapsed)
+2026-02-11 17:46:53,286 | INFO | Auto-refresh(browser): captured get_request_url request
+2026-02-11 17:46:53,287 | INFO | Config updated: get_request_url refreshed and saved to parser/unikey/unikey_config.json
+2026-02-11 17:46:54,058 | INFO | Catalog url acquired: https://api.macro.sbercrm.com/estate/catalog/?domain=unikey.space&check=EO0u9KTBTIp8IF5pjGrrTgVd9DoCGYR7k1--T-ETXrsslM1u...
+2026-02-11 17:46:54,158 | INFO | [PROGRESS 2/5] Получаем get_data: список ЖК/домов и доступные категории
+2026-02-11 17:46:54,649 | INFO | [PROGRESS 3/5] Фильтруем дома по городу и разрешаем категории (flat/кладовые/гаражи)
+2026-02-11 17:46:54,650 | INFO | Available categories (city=Хабаровск): garage, flat, storageroom
+2026-02-11 17:46:54,650 | INFO | Requested categories: flat=flat, pantry=storageroom, parking=garage
+2026-02-11 17:46:54,650 | INFO | Resolved categories: flat->flat, pantry->storageroom, parking->garage
+2026-02-11 17:46:54,650 | INFO | Target house+category pairs (18):
+2026-02-11 17:46:54,650 | INFO |  - [flat/flat] ЖК Green-2 | Дом №1 | house_id=4572844
+2026-02-11 17:46:54,650 | INFO |  - [flat/flat] ЖК Green-2 | Дом №2 | house_id=4573050
+2026-02-11 17:46:54,650 | INFO |  - [flat/flat] ЖК Stories | Башня Бизнес | house_id=4571674
+2026-02-11 17:46:54,650 | INFO |  - [flat/flat] ЖК Stories | Башня Детство | house_id=4571666
+2026-02-11 17:46:54,650 | INFO |  - [flat/flat] ЖК Stories | Башня Интеллект | house_id=4571506
+2026-02-11 17:46:54,651 | INFO |  - [flat/flat] ЖК Stories | Башня Отдых | house_id=4571679
+2026-02-11 17:46:54,651 | INFO |  - [flat/flat] ЖК Начало | Дом № 1 | house_id=4563040
+2026-02-11 17:46:54,651 | INFO |  - [flat/flat] ЖК Сердце Бонивура | Корпус А | house_id=4701508
+2026-02-11 17:46:54,651 | INFO |  - [flat/flat] ЖК Сердце Бонивура | Корпус Б | house_id=4701782
+2026-02-11 17:46:54,651 | INFO |  - [flat/flat] ЖК Сердце Бонивура | Корпус В | house_id=4701915
+2026-02-11 17:46:54,651 | INFO |  - [pantry/storageroom] ЖК Начало | Дом №3 | house_id=4564264
+2026-02-11 17:46:54,651 | INFO |  - [pantry/storageroom] ЖК Начало | Дом №4 | house_id=4571170
+2026-02-11 17:46:54,651 | INFO |  - [pantry/storageroom] Жилой Квартал GREEN | ЖК Квартал GREEN дом 1 | house_id=4560163
+2026-02-11 17:46:54,652 | INFO |  - [pantry/storageroom] Жилой Квартал GREEN | ЖК Квартал GREEN дом 2 | house_id=4562173
+2026-02-11 17:46:54,652 | INFO |  - [pantry/storageroom] Жилой Квартал GREEN | ЖК Квартал GREEN дом 3 | house_id=4562547
+2026-02-11 17:46:54,652 | INFO |  - [pantry/storageroom] Жилой Квартал GREEN | ЖК Квартал GREEN дом 4 | house_id=4562774
+2026-02-11 17:46:54,652 | INFO |  - [parking/garage] ЖК Stories | Паркинг | house_id=6802460
+2026-02-11 17:46:54,652 | INFO |  - [parking/garage] ЖК Сердце Бонивура | Паркинг | house_id=6761426
+2026-02-11 17:46:54,652 | INFO | [PROGRESS 4/5] Собираем лоты: дом×категория (18 задач)
+2026-02-11 17:46:56,611 | INFO | House 4572844 [flat/flat]: rows=152
+2026-02-11 17:46:59,287 | INFO | House 4573050 [flat/flat]: rows=173
+2026-02-11 17:47:02,050 | INFO | House 4571674 [flat/flat]: rows=164
+2026-02-11 17:47:04,805 | INFO | House 4571666 [flat/flat]: rows=153
+2026-02-11 17:47:07,331 | INFO | House 4571506 [flat/flat]: rows=159
+2026-02-11 17:47:10,056 | INFO | House 4571679 [flat/flat]: rows=148
+2026-02-11 17:47:14,730 | INFO | House 4563040 [flat/flat]: rows=334
+2026-02-11 17:47:17,277 | INFO | House 4701508 [flat/flat]: rows=178
+2026-02-11 17:47:19,465 | INFO | House 4701782 [flat/flat]: rows=109
+2026-02-11 17:47:21,685 | INFO | House 4701915 [flat/flat]: rows=70
+2026-02-11 17:47:22,915 | INFO | House 4564264 [pantry/storageroom]: rows=15
+2026-02-11 17:47:24,954 | INFO | House 4571170 [pantry/storageroom]: rows=43
+2026-02-11 17:47:27,308 | INFO | House 4560163 [pantry/storageroom]: rows=72
+2026-02-11 17:47:29,055 | INFO | House 4562173 [pantry/storageroom]: rows=72
+2026-02-11 17:47:30,526 | INFO | House 4562547 [pantry/storageroom]: rows=72
+2026-02-11 17:47:32,792 | INFO | House 4562774 [pantry/storageroom]: rows=108
+2026-02-11 17:47:38,460 | INFO | House 6802460 [parking/garage]: rows=544
+2026-02-11 17:47:42,136 | INFO | House 6761426 [parking/garage]: rows=304
+2026-02-11 17:47:42,137 | INFO | [PROGRESS 5/5] Записываем snapshot и итоговые артефакты
